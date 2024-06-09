@@ -1,0 +1,38 @@
+.how-to-play {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-section {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.header-section h1 {
+    margin-top: 0;
+}
+
+.steps-section {
+    margin: 40px 0;
+}
+
+.step {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.step h2 {
+    margin-top: 0;
+}
